@@ -12,7 +12,8 @@ function component() {
   element.classList.add('hello');
 
   btn.innerHTML = 'click me';
-  btn.onClick = printMe;
+  console.log(btn);
+  btn.onclick = printMe;
 
   element.appendChild(btn);
 
