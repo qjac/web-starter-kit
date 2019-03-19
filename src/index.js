@@ -12,7 +12,7 @@ function component() {
   element.classList.add('hello');
 
   btn.innerHTML = 'click me';
-  console.log(btn);
+  
   btn.onclick = printMe;
 
   element.appendChild(btn);
