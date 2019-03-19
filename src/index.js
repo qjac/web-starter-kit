@@ -1,21 +1,22 @@
 import _ from 'lodash';
  import './style.css';
- import Icon from './icon.png';
- import Data from './data.xml';
+import printMe from './print.js';
 
 function component() {
   let element = document.createElement('div');
+  let btn = document.createElement('button');
+
 
   // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('hello');
 
-  var myIcon = new Image();
-  myIcon.src = Icon;
+  btn.innerHTML = 'click me';
+  btn.onClick = printMe;
 
-  element.appendChild(myIcon);
+  element.appendChild(btn);
 
-  console.log(Data);
+
 
   return element;
 }
