@@ -8,6 +8,7 @@ A ready to rock collection of npm modules and config files to jumpstart web proj
 
 
 ## What's Included?
+* .gitignore: Not everything needs a backup.
 * Webpack: Automate all the things. Includes seperate dev and prod config files
 * Babel: Use new js in old browsers
 * HTML Webpack Plugin: Bundles it all up and outputs a browser-ready HTML file with auto-generate script tags
