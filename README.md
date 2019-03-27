@@ -19,7 +19,7 @@ A ready to rock collection of npm modules and config files to jumpstart web proj
 -   Post CSS and Autoprefixer: No more worrying about polyfills or vendor prefixes
 -   CSS eExtraction: Pulls CSS into seperate file (as opposed to default style tag in HTML file)
 -   Eslint and Prettier: Save me from myself with linting and autoformatting
-    -(There are a number of ways to get them to play nicely together. This is the method I followed: https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99)
+    (There are a number of ways to get them to play nicely together. This is the method I followed: https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99)
 -   Clean Webpack Plugin: Removes old dist/ before building a new one. No dusty files here
 -   Lodash: Needed for webpack setup tutorial. Remove if not needed.
 
@@ -31,3 +31,6 @@ A ready to rock collection of npm modules and config files to jumpstart web proj
 -   Add css reset and basic style boilerplate
 -   Instead of using <https://realfavicongenerator.net/>, automate it with <https://github.com/itgalaxy/favicons>
 -   If inline SVGs are wanted, add <https://github.com/thegc/html-webpack-inline-svg-plugin>
+-   Look into automating HTML validation
+-   Add <https://webpack.js.org/plugins/uglifyjs-webpack-plugin/>
+-   Add <https://github.com/NMFR/optimize-css-assets-webpack-plugin>
