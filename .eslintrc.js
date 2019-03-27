@@ -9,7 +9,7 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
-    "parserOptions": {{
+    "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
@@ -18,7 +18,6 @@ module.exports = {
     },
     parser: 'babel-eslint', // class properties
     "rules": {
-
     'prettier/prettier': [ // customizing prettier rules (unfortunately not many of them are customizable)
       'error',
       {
@@ -27,8 +26,10 @@ module.exports = {
         bracketSpacing: true
       },
     ],
-    eqeqeq: ['error', 'always'], // adding some custom ESLint rules
-
+    eqeqeq: ['error', 'always'], 
+    "no-console": 'warn', //warn if console.log,
+     "no-unused-vars": "warn",
+    "no-undef": "warn"
     }
 
 };
